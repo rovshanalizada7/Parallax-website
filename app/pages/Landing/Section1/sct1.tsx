@@ -28,9 +28,24 @@ export const Section1 = () => {
                 </menu>
             </header>
 
-            {/* <div>
+            <div
+                className="bg-gradient-to-r w-[350px] h-[150px] absolute z-2 left-[15%] bottom-[-3%] rounded-[50%] blur-[220px]"
+                style={{
+                    backgroundImage: 'linear-gradient(to right, rgba(252, 111, 50, 1), rgba(255, 74, 89, 1))',
+                }}
+            ></div>
+
+             <div
+                className="bg-gradient-to-r absolute z-2 left-[23%] top-[-10%] w-[350px] h-[250px] blur-[200px] rounded-[50%]"
+                style={{
+                    backgroundImage: 'linear-gradient(to right, rgba(50, 191, 252, 1), rgba(0, 85, 119, 1))',
+                }}
+             ></div>
+
+
+            <div>
                 <img className="w-[1016px] h-[1016px]  right-0 top-[5%] z-1 fixed" src="imgs/moon.jpg" alt="" />
-            </div> */}
+            </div>
 
             <div className="flex flex-col gap-[100px]  justify-between h-[784p]  w-[92%] absolute z-[2]">
 

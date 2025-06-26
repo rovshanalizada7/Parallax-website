@@ -17,7 +17,7 @@ export const Section1 = () => {
                         }}
                     >
                         <button
-                            className="w-[157px] h-[52px] tracking-[1px]  rounded-[91px] text-white bg-black w-full h-full cursor-pointer"
+                            className=" tracking-[1px]  rounded-[91px] text-white bg-black w-full h-full cursor-pointer"
                             style={{
                                 fontFamily: '"Clash Grotesk", sans-serif',
                             }}
@@ -28,9 +28,9 @@ export const Section1 = () => {
                 </menu>
             </header>
 
-            <div>
-                <img className="w-[1016px] h-[1016px] absolute right-0 top-[5%] z-[1] fixed" src="imgs/moon.jpg" alt="" />
-            </div>
+            {/* <div>
+                <img className="w-[1016px] h-[1016px]  right-0 top-[5%] z-1 fixed" src="imgs/moon.jpg" alt="" />
+            </div> */}
 
             <div className="flex flex-col gap-[100px]  justify-between h-[784p]  w-[92%] absolute z-[2]">
 
@@ -63,32 +63,6 @@ export const Section1 = () => {
                             Buy Spice AI
                         </button>
                     </div> 
-
-                 
-                       {/* <div className="rounded-[91px]">
-                        <button 
-                                            
-                        style={{
-                        background: 'transparent',
-                        padding: '24px 48px',
-                        border: '2px solid',
-                        borderImage: 'linear-gradient(90deg, #B53EA4, #FC6F32, #FF4A59)',
-                        borderImageSlice: 1, // ✅ ensures border gradient is applied correctly
-                        color: 'white',
-                        display: 'inline-block',
-                        width: 'auto',
-                        borderRadius: '91px', // ✅ now works
-                        backgroundClip: 'padding-box', // ✅ helps with rounded clipping
-                        }}
-                    >
-                        Buy Spice AI
-                    </button>
-                    </div> */}
-
-                  
-               
-
-
 
                 </div>
 

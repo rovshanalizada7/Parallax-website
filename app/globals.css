@@ -24,3 +24,318 @@ body {
   color: var(--foreground);
    font-family: 'Clash Grotesk', sans-serif;
 }
+
+@media (max-width: 1890px){
+ .btns button{
+  width:544px;
+  height:192px;
+ }
+
+}
+
+@media (max-width: 1835px){
+  .sct1-h1{
+    font-size: 113px;
+  }
+  .sct1-p{
+    font-size: 22px;
+  }
+   .btns button{
+    width:524px;
+    height:192px;
+ }
+  .btns .span1{
+   font-size: 60px;
+ }
+  .btns .span2{
+  font-size: 22px;
+ }
+}
+
+@media (max-width: 1770px){
+   .btns button{
+    width:504px;
+    height:192px;
+ }
+  .btns .span1{
+   font-size: 56px;
+ }
+  .btns .span2{
+  font-size: 20px;
+ }
+}
+@media (max-width: 1690px){
+   .btns button{
+    width:480px;
+    height:182px;
+ }
+  .swiper-wrapper{
+    gap:2rem;
+  }
+  .sct2 h1 {
+    font-size: 45px;
+  }
+  .mark-img{
+    width: 280px;
+    height: 85px;
+  }
+}
+
+
+@media (max-width: 1620px){
+  .sct1-h1{
+    font-size: 105px;
+  }
+   .sct1-p{
+    font-size: 20px;
+  }
+   .btns button{
+    width:450px;
+    height:182px;
+ }
+
+}
+
+@media (max-width: 1505px){
+  .sct1-h1{
+    font-size: 95px;
+  }
+   .sct1-p{
+    font-size: 18px;
+  }
+     .btns button{
+     width:430px;
+     height:182px;
+ }
+   .btns .span1{
+   font-size: 52px;
+ }
+  .btns .span2{
+  font-size: 20px;
+ }
+}
+@media (max-width: 1450px){
+  .btns button{
+     width:400px;
+     height:182px;
+ }
+   .btns .span1{
+   font-size: 48px;
+ }
+  .btns .span2{
+  font-size: 18px;
+ }
+  .swiper-wrapper{
+    gap:2.5rem;
+  }
+  .sct2 h1 {
+    font-size: 40px;
+  }
+  .mark-img{
+    width: 250px;
+    height: 70px;
+  }
+}
+@media (max-width: 1362px){
+  .sct1-h1{
+    font-size: 88px;
+  }
+   .btns button{
+     width:380px;
+     height:162px;
+ }
+   .btns .span1{
+   font-size: 44px;
+ }
+  .btns .span2{
+  font-size: 16px;
+ }
+  .swiper-wrapper{
+    gap:2rem;
+  }
+  .sct2 h1 {
+    font-size: 36px;
+  }
+  .mark-img{
+    width: 220px;
+    height: 60px;
+  }
+  .swip-2 .mark-img img{
+    width: 220px;
+  }
+  .telegram{
+    width: 60px !important;
+  }
+}
+@media (max-width: 1262px){
+  .sct1-h1{
+    font-size: 80px;
+  }
+   .sct1-p{
+    font-size: 16px;
+  }
+  .sct1-btn{
+    width: 220px;
+  }
+   .btns button{
+     width:350px;
+     height:152px;
+ }
+    .btns .span1{
+   font-size: 40px;
+ }
+  .btns .span2{
+  font-size: 15px;
+ }
+  .swiper-wrapper{
+    gap:4rem;
+  }
+   .mark-img{
+    width: 200px;
+    height: 60px;
+  }
+}
+@media (max-width: 1170px){
+   .btns button{
+     width:320px;
+     height:132px;
+ }
+    .btns .span1{
+   font-size: 36px;
+ }
+  .btns .span2{
+  font-size: 13px;
+ }
+}
+@media (max-width: 1146px){
+  .sct1-h1{
+    font-size: 70px;
+  }
+   .btns button{
+     width:300px;
+     height:122px;
+ }
+ .swiper-wrapper{
+    gap:6rem;
+  }
+   .mark-img{
+    width: 150px;
+    height: 50px;
+  }
+   .sct2 h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1004px){
+  .sct1-h1{
+    font-size: 60px;
+  }
+    .sct1-p{
+    font-size: 14px;
+  }
+   .sct1-btn{
+    width: 200px;
+  }
+  .sct1-btn button{
+    padding: 20px 40px;
+  }
+     .btns button{
+     width:280px;
+     height:112px;
+ }
+    .btns .span1{
+   font-size: 32px;
+ }
+  .btns .span2{
+  font-size: 11px;
+ }
+}
+@media (max-width: 950px){
+ .btns{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+ }
+ .swip-2 .mark-img img{
+    width: 200px;
+  }
+
+}
+@media (max-width: 862px){
+  .sct1-h1{
+    font-size: 50px;
+  }
+    .sct1-p{
+    font-size: 12px;
+  }
+    .sct1-btn button{
+    padding: 18px 36px;
+  }
+   .swiper-wrapper{
+    gap:7rem;
+  }
+   .mark-img{
+    width: 100px;
+    height: 50px;
+  }
+  .swiper-wrapper{
+    gap:9rem;
+  }
+   .mark-img{
+    width: 120px;
+    height: 40px;
+  }
+   .sct2 h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 716px){
+  .sct1-h1{
+    font-size: 40px;
+  }
+    .sct1-p{
+    font-size: 10px;
+  }
+    .sct1-btn button{
+    padding: 16px 32px;
+  }
+   .sct2 h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 576px){
+  .sct1-h1{
+    font-size: 30px;
+  }
+    .sct1-btn button{
+    padding: 14px 24px;
+  }
+   .sct2 h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:476px){
+  .bg-img1{
+  left: 5%;
+ }
+ .bg-img2{
+  left: 5%;
+ }
+    .sct2 h1 {
+    text-align: center;
+  }
+}
+@media (max-width:376px){
+  .bg-img1{
+  left: 0;
+ }
+ .bg-img2{
+  left: 0;
+ }
+}
+
+

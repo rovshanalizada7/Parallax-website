@@ -50,6 +50,17 @@ body {
   .btns .span2{
   font-size: 22px;
  }
+ .sct4-div{
+  padding: 0 1rem;
+ }
+ .sct4 p {
+  padding-left: 1rem;
+  /* max-width: 1400px; */
+ }
+ .sct1-bg{
+  width: 950px;
+  height: 950px;
+ }
 }
 
 @media (max-width: 1770px){
@@ -79,6 +90,10 @@ body {
     width: 280px;
     height: 85px;
   }
+  .sct1-bg{
+  width: 900px;
+  height: 900px;
+ }
 }
 
 
@@ -92,6 +107,10 @@ body {
    .btns button{
     width:450px;
     height:182px;
+ }
+  .sct1-bg{
+  width: 850px;
+  height: 850px;
  }
 
 }
@@ -112,6 +131,10 @@ body {
  }
   .btns .span2{
   font-size: 20px;
+ }
+ .sct1-bg{
+  width: 780px;
+  height: 780px;
  }
 }
 @media (max-width: 1450px){
@@ -166,6 +189,17 @@ body {
   .telegram{
     width: 60px !important;
   }
+  .sct3 h1{
+    font-size:60px;
+  }
+   .sct3 p{
+    font-size:22px ;
+  }
+  .sct1-bg{
+  width: 730px;
+  height: 730px;
+  top: 10%;
+ }
 }
 @media (max-width: 1262px){
   .sct1-h1{
@@ -194,6 +228,19 @@ body {
     width: 200px;
     height: 60px;
   }
+    .sct3 h1{
+    font-size:56px;
+  }
+   .sct3 p{
+    font-size:20px ;
+  }
+  .sct3-content{
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .sct1-bg{
+    top: 15%;
+ }
 }
 @media (max-width: 1170px){
    .btns button{
@@ -205,6 +252,16 @@ body {
  }
   .btns .span2{
   font-size: 13px;
+ }
+ .sct3 p {
+  max-width: 800px;
+ }
+ .sct3-content{
+  gap: 2rem;
+ }
+  .sct1-bg{
+  width: 670px;
+  height: 670px;
  }
 }
 @media (max-width: 1146px){
@@ -249,6 +306,16 @@ body {
   .btns .span2{
   font-size: 11px;
  }
+ .sct3 p {
+  max-width: 700px;
+ }
+ .sct3 h1{
+  font-size:50px;
+ }
+   .sct1-bg{
+  width: 630px;
+  height: 630px;
+ }
 }
 @media (max-width: 950px){
  .btns{
@@ -262,6 +329,19 @@ body {
  .swip-2 .mark-img img{
     width: 200px;
   }
+  .sct3 p {
+  max-width: 600px;
+ }
+ .sct3 h1{
+  font-size:45px;
+ }
+ .sct4-div span{
+  font-size: 56px;
+ }
+ .sct4 .btn-div{
+  width: 260px;
+ }
+
 
 }
 @media (max-width: 862px){
@@ -291,7 +371,29 @@ body {
    .sct2 h1 {
     font-size: 27px;
   }
+   .sct4-div span{
+  font-size: 45px;
+ }
+ .sct4  p{
+  font-size: 20px;
+ }
+ .sct4 .btn-div{
+  width: 260px;
+ }
+  .sct1-bg{
+  width: 550px;
+  height: 550px;
+ }
 }
+
+@media (max-width: 830px){
+  .sct1-bg{
+    width: 500px;
+    height: 500px;
+ }
+}
+
+
 @media (max-width: 716px){
   .sct1-h1{
     font-size: 40px;
@@ -305,6 +407,41 @@ body {
    .sct2 h1 {
     font-size: 24px;
   }
+  .sct3 h1{
+    font-size: 35px;
+  }
+  .sct3 p{
+    font-size: 18px;
+    max-width: 550px;
+  }
+  .sct3 button{
+    padding:20px 36px;
+  }
+  .sct1-bg{
+    width: 450px;
+    height: 450px;
+ }
+}
+@media (max-width: 670px){
+  .sct3 h1{
+    font-size: 30px;
+  }
+  .sct3 p{
+    font-size: 15px;
+    max-width: 450px;
+  }
+  .sct4-div{
+   flex-wrap: wrap;
+   height: auto;
+  }
+    .sct1-bg{
+    width: 400px;
+    height: 400px;
+    top: 20%;
+ }
+ footer h1 {
+  font-size: 30px;
+ }
 }
 @media (max-width: 576px){
   .sct1-h1{
@@ -316,6 +453,27 @@ body {
    .sct2 h1 {
     font-size: 20px;
   }
+  .sct3 .btn-div{
+    width: 260px;
+  }
+  .sct3  button{
+    font-size: 14px;
+  }
+  .sct3 p{
+    font-size: 15px;
+    max-width: 400px;
+  }
+   .sct1-bg{
+    width: 350px;
+    height: 350px;
+    top: 20%;
+ }
+ footer h1{
+  text-align: center;
+ }
+ .footer-spans{
+  width: 250px;
+ }
 }
 
 @media (max-width:476px){
@@ -328,13 +486,48 @@ body {
     .sct2 h1 {
     text-align: center;
   }
+  .sct3 h1 {
+    font-size: 25px;
+    max-width: 350px;
+  }
+   .sct3 p{
+    font-size: 15px;
+    max-width: 350px;
+  }
+  .sct3-content{
+    margin-left: 1rem;
+  }
+  .sct2-bg,.sct3-bg {
+    left: 10%;
+  }
+  .sct1-bg{
+    width: 280px;
+    height: 300px;
+    top: 30%;
+ }
 }
-@media (max-width:376px){
+@media (max-width:390px){
   .bg-img1{
   left: 0;
  }
  .bg-img2{
   left: 0;
+ }
+ .sct3 p{
+    font-size: 15px;
+    max-width: 270px;
+  }
+  .sct2-bg,.sct3-bg {
+    left: 0;
+  }
+  .sct1-bg{
+    width: 250px;
+    height: 250px;
+    top: 40%;
+ }
+ .footer-bottom{
+  flex-wrap: wrap;
+  gap: 1rem;
  }
 }
 

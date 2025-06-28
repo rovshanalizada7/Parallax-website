@@ -1,19 +1,68 @@
-
+'use client';
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
 import CustomizedTables from '@/components/Table/table'
-import React from 'react'
+
 
 
 const Section4 = () => {
 
+    const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const section = document.querySelector('.sct4');
+      const sectionTop = section?.getBoundingClientRect().top || 0;
+
+      // Animate upward (south to north)
+      const moveAmount = Math.max(0, 300 - sectionTop);
+      setOffset(moveAmount);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
 
-    <section className='h-[1000px] w-full bg-[black] flex justify-center items-center'>
-     <div className='h-[943px] w-[1760px]  flex flex-col gap-[32px] '>
+    <section className='h-[1000px] w-full bg-[black] flex justify-center items-center relative sct4'>
+
+
+            {/* <div className='absolute bottom-[-24%] left-[20%]'>
+                   <Image
+                   src={"/imgs/Group25.png"}
+                   width={226}
+                   height={750}
+                   alt='image25'/>
+                </div> */}
+
+
+                <div
+        className='absolute bottom-[-24%] left-[20%] transition-transform duration-75 ease-linear'
+        style={{
+          transform: `translateY(-${offset}px)`, // negative Y for upward movement
+        }}
+      >
+        <Image
+          src='/imgs/Group25.png'
+          width={226}
+          height={750}
+          alt='image25'
+        />
+      </div>
+
+
+
+
+
+
+        <div className='h-[943px] w-[1760px]  flex flex-col gap-[32px] '>
       
-            <div className='h-[79px] w-full flex justify-between'>
+            <div className='h-[79px] w-full flex justify-between sct4-div'>
                 <span className='text-[64px] font-[500] text-[white]'>LLM Leaderboard</span>
                  <div
-                        className="p-[2px] rounded-[91px] inline-block w-[17%] "
+                        className="p-[2px] rounded-[91px] inline-block w-[290px] btn-div"
                         style={{
                             background: 'linear-gradient(90deg, #B53EA4, #FC6F32, #FF4A59)',
                         }}
@@ -34,7 +83,7 @@ const Section4 = () => {
 
             <CustomizedTables/>
 
-     </div>
+        </div>
     </section>
   )
 }

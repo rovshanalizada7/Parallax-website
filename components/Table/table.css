@@ -1,17 +1,23 @@
-.MuiTableRow-root{
+.MuiTableRow-root {
   height: 72px;
 }
 
 .odd-rows {
-   background-color: #16171d;
+  background-color: #16171d;
 }
 
 .even-rows {
   background-color: black;
 }
-.css-1j3gxal-MuiTableCell-root.MuiTableCell-body,.css-14qca7x-MuiTableCell-root.MuiTableCell-body{
+
+.css-1j3gxal-MuiTableCell-root.MuiTableCell-body,
+.css-14qca7x-MuiTableCell-root.MuiTableCell-body {
   color: white;
 }
-.css-1mauqrt-MuiTableCell-root.MuiTableCell-head,.css-1j3gxal-MuiTableCell-root.MuiTableCell-body,.css-14qca7x-MuiTableCell-root.MuiTableCell-body,.css-1iefaka-MuiTableCell-root.MuiTableCell-head{
+
+.css-1mauqrt-MuiTableCell-root.MuiTableCell-head,
+.css-1j3gxal-MuiTableCell-root.MuiTableCell-body,
+.css-14qca7x-MuiTableCell-root.MuiTableCell-body,
+.css-1iefaka-MuiTableCell-root.MuiTableCell-head {
   border: none;
 }

@@ -28,36 +28,29 @@ const Section4 = () => {
 
     <section className='h-[1000px] w-full bg-[black] flex justify-center items-center relative sct4'>
 
-
-            {/* <div className='absolute bottom-[-24%] left-[20%]'>
-                   <Image
-                   src={"/imgs/Group25.png"}
-                   width={226}
-                   height={750}
-                   alt='image25'/>
-                </div> */}
-
-
                 <div
-        className='absolute bottom-[-24%] left-[20%] transition-transform duration-75 ease-linear'
-        style={{
-          transform: `translateY(-${offset}px)`, // negative Y for upward movement
-        }}
-      >
-        <Image
-          src='/imgs/Group25.png'
-          width={226}
-          height={750}
-          alt='image25'
-        />
-      </div>
+                  className='absolute z-1 bottom-[-28%] left-[20%] transition-transform duration-75 ease-linear'
+                  style={{
+                    transform: `translateY(-${offset}px)`, // negative Y for upward movement
+                  }}
+                 >
+                  <Image
+                  className='sct4-img'
+                    src='/imgs/Group25.png'
+                    width={226}
+                    height={750}
+                    alt='image25'
+                  />
+                </div>
+
+  
 
 
 
 
 
 
-        <div className='h-[943px] w-[1760px]  flex flex-col gap-[32px] '>
+        <div data-aos="fade-up" data-aos-duration="2000" className='h-[943px] w-[1760px]  flex flex-col gap-[32px] table-div'>
       
             <div className='h-[79px] w-full flex justify-between sct4-div'>
                 <span className='text-[64px] font-[500] text-[white]'>LLM Leaderboard</span>
@@ -81,7 +74,9 @@ const Section4 = () => {
             <p className='text-[white] text-[24px]'>We evaluate LLMs on key benchmarks using the Eleuther AI, a framework to test LLMs on a large number of different evaluation tasks. <br />
             The higher the score, the better the LLM. </p>
 
-            <CustomizedTables/>
+            <div className='px-4'>
+              <CustomizedTables/>
+            </div>
 
         </div>
     </section>

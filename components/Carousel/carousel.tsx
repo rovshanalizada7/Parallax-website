@@ -14,9 +14,10 @@ const Mark = () => {
                     loop={true}
                     grabCursor={true}
                     autoplay={{
-                        delay: 4995,
+                        delay: 1000,
                         disableOnInteraction: false
                     }}
+                    speed={800}
                     modules={[Autoplay]}>
 
                     <SwiperSlide>

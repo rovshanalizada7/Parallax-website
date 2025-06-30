@@ -1,23 +1,23 @@
 .MuiTableRow-root {
-  height: 72px;
+  height: 72px !important;
 }
 
 .odd-rows {
-  background-color: #16171d;
+  background-color: #16171d !important;
 }
 
 .even-rows {
-  background-color: black;
+  background-color: black !important;
 }
 
 .css-1j3gxal-MuiTableCell-root.MuiTableCell-body,
 .css-14qca7x-MuiTableCell-root.MuiTableCell-body {
-  color: white;
+  color: white !important;
 }
 
 .css-1mauqrt-MuiTableCell-root.MuiTableCell-head,
 .css-1j3gxal-MuiTableCell-root.MuiTableCell-body,
 .css-14qca7x-MuiTableCell-root.MuiTableCell-body,
 .css-1iefaka-MuiTableCell-root.MuiTableCell-head {
-  border: none;
+  border: none !important;
 }
